@@ -34,6 +34,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         ].join("\n");
 
         $('body').append(html);
+        $('#analytics-consent-container').css('top', ($('html').outerHeight() - $('#analytics-consent-container').outerHeight()));
 
         if(typeof Cookies.get('ga-opt-out') !== 'undefined'){
           optOut();
