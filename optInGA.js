@@ -18,12 +18,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       }
 
       function init(){
-        $("<link/>", {
-          rel: "stylesheet",
-          type: "text/css",
-          href: "https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:300i"
-        }).appendTo("head");
-
         var html = [
           '<div id="analytics-consent-container">',
             '<h2>'+settings.title+'</h2>',
