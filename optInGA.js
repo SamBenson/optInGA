@@ -24,7 +24,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             '<p>'+settings.content+'</p>',
             '<p>To opt-out, please <a id="ga-opt-out-link" href="#">click here</a>.</p>',
           '</div>',
-          '<style>#analytics-consent-container{position:absolute;bottom:0;left:10px;padding:15px;background:#d3d3d3;border-radius:10px 10px 0 0;transition:.5s all}#analytics-consent-container.hidden{opacity: 0; transform: translateX(-100%)}#analytics-consent-container h2{margin:0 0 10px;line-height:1;font-size:14px;font-weight:600}#analytics-consent-container p{margin:0 0 10px;font-weight:300;font-family:Roboto;font-style:italic;line-height:.9;font-size:12px}#analytics-consent-container p a{color:#000}#analytics-consent-container p:last-of-type{margin:0}</style>'
+          '<style>html{position: relative;} #analytics-consent-container{position:absolute;bottom:0;left:10px;padding:15px;background:#d3d3d3;border-radius:10px 10px 0 0;transition:.5s all}#analytics-consent-container.hidden{opacity: 0; transform: translateX(-100%)}#analytics-consent-container h2{margin:0 0 10px;line-height:1;font-size:14px;font-weight:600}#analytics-consent-container p{margin:0 0 10px;font-weight:300;font-family:Roboto;font-style:italic;line-height:.9;font-size:12px}#analytics-consent-container p a{color:#000}#analytics-consent-container p:last-of-type{margin:0}</style>'
         ].join("\n");
 
         $('html').append(html);
